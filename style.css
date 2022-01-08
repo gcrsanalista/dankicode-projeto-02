@@ -28,7 +28,6 @@
 
     .logo-1{
         float: left;
-        display: inline-block;
         width: 200px;
         height: 100px;
         border-radius: 10px;
@@ -52,7 +51,6 @@
 
     .logo-3{
         float: right;
-        display: inline-block;
         width: 200px;
         height: 100px;
         border-radius: 10px;
