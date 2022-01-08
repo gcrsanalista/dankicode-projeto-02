@@ -1,0 +1,319 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    html,body{
+        height: 100%;
+    }
+
+    /* Divs gerais! */
+    .container{
+        width: 100%;
+        max-width: 1000px;
+        margin:0 auto;
+    }
+
+    .clear{
+        clear: both;
+    }
+    /*****/
+
+    header{
+        background-color: rgb(71, 71, 71);
+        padding: 20px 2%;
+    }
+
+    .logo-1{
+        float: left;
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: purple; 
+        background-image: url('imagens/Clare1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .logo-2{
+        
+        display: inline-block;
+        margin-left: 15%;
+        width: 300px;
+        height: 100px;
+        background-image: url('imagens/logo.png');
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .logo-3{
+        float: right;
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: rgb(0, 19, 128);
+        background-image: url('imagens/Teresa.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+
+    section.cover-form{
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+
+    .container-bg{
+        height: 720px;
+        background-position: top;
+        background-size: cover;
+        background-image: url('Imagens/claymore-fundo2.jpg');
+        border: black solid 1px;
+    }
+
+    .form-container {
+        float: right;
+        margin-right: 40px;
+        width: 400px;
+        height: 104%;
+        position: relative;
+        z-index: 2;
+        top: -1.9%;
+        border: 1px solid black;
+        background-color: rgba(56, 51, 121, 0.5);
+    }
+
+    .form-container h2{
+
+        font-weight: normal;
+        padding: 20px 15px;
+        color: rgb(32, 32, 32);
+        font-size: 20px;
+        background-color: rgb(185, 181, 255);
+    }
+
+    .form-container form{
+        margin-top: 8px;
+        padding: 15px;
+    }
+
+    .form-container form p{
+        
+        color: #ffffff;
+    }
+
+    .form-wraper:not(:first-child){
+        margin-top:40px;
+    }
+
+    .form-wraper:last-child{
+        margin-top: 20px;
+    }
+
+    .form-container form input[type=text]{
+        width: 100%;
+        border: 1px solid #ccc;
+        height: 45px;
+        line-height: 45px;
+        padding-left: 10px;
+    }
+
+    .form-container form input[type=submit] {
+        background-color: #5e3b96;
+        border: 1px solid rgb(0, 0, 0);
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        height: 50px;
+        cursor: pointer;
+        font-weight: normal;
+    }
+
+    section.chamada{
+        z-index: 1;
+        padding: 30px;
+        width: 100%;
+        text-align: left;
+        background-color: rgb(71, 71, 71);
+        color: white;
+        font-size: 14px;
+    }
+
+
+
+    .flex-mosaico{
+        display: flex;
+        align-items: center;
+        background-color: rgb(185, 181, 255);
+        border-top: black solid 1px;
+        border-left: black solid 1px;
+        border-right: black solid 1px;
+        text-align: center;
+    }
+
+    .item-1-mosaico{
+        background-position: top;
+        background-size: cover;
+        background-image: url('Imagens/inferior/11.jpg');
+        width: 60%;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-right: black solid 1px;
+    }
+
+    .item-1-1-mosaico{
+        
+        padding: 40px;
+        width: 40%;
+    }
+
+    .item-2-mosaico{
+        background-position: center;
+        background-size: cover;
+        background-image: url('Imagens/inferior/14.jpg');
+        width: 60%;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-left: black solid 1px;
+    }
+
+    .item-2-1-mosaico{
+        
+        width: 40%;
+        padding: 40px;
+    }
+   
+    .item-3-mosaico{
+        background-position: top;
+        background-size: cover;
+        background-image: url('Imagens/inferior/6.jpg');
+        width: 60%;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-right: black solid 1px;
+    }
+
+    .item-3-1-mosaico{
+        
+        width: 40%;
+        padding: 40px;
+    }
+   
+    .item-4-mosaico{
+        background-position: top;
+        background-size: cover;
+        background-image: url('Imagens/inferior/8.jpg');
+        width: 60%;
+        height: 300px;
+        background-repeat: no-repeat;
+        border-left: black solid 1px;
+    }
+
+    .item-4-1-mosaico{
+        
+        width: 40%;
+        padding: 40px;
+    }
+
+    footer{
+        text-align: center;
+        padding: 20px 0;
+        background-color: rgb(71, 71, 71);
+        color: white;
+        
+
+    }
+
+    footer p{
+        margin-top: 8px
+    }
+
+    
+
+    @media screen and (max-width: 700px) {
+
+        header{
+            text-align: center;
+        }
+
+
+        .logo-1, .logo-2, .logo-3{
+            margin-top: 10px;
+            display: inline-block;
+            float: none;
+        }
+          
+        .logo-2{
+           
+            margin-left: 0%; 
+        }
+
+        .bg{
+            text-align: center;
+        }
+
+        .flex-mosaico{
+            display: block;
+        }
+
+        .item-1-mosaico {
+
+            height: 300px;
+            width: 100%;
+        }
+
+        .item-1-1-mosaico{
+            height: 100%;
+            width: 100%;
+            text-align: center justify;
+           
+        }
+    
+        .item-2-mosaico{
+            height: 300px;
+            width: 100%;
+            
+        }
+    
+        .item-2-1-mosaico{
+            height: 100%;
+            width: 100%;
+            text-align: justify;
+         }
+       
+        .item-3-mosaico{
+            height: 300px;
+            width: 100%;
+        }
+    
+        .item-3-1-mosaico{
+            height: 100%;
+            width: 100%;
+            text-align: justify;
+        }
+       
+        .item-4-mosaico{
+            height: 300px;
+            width: 100%;
+        }
+        
+        .item-4-1-mosaico{
+            height: 100%;
+            width: 100%;
+            text-align: justify;
+        }
+    
+    }
+
+
